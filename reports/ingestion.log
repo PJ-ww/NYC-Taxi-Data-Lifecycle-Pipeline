@@ -1,0 +1,26 @@
+2026-11-14 14:41:23,479 - INFO - Testing remote file: https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet
+2026-11-14 14:41:24,579 - INFO - Remote Parquet access successful
+2026-11-14 14:44:12,463 - INFO - SUCCESS | yellow_tripdata_2024-01.parquet | 2,964,624 rows
+2026-11-14 14:44:12,564 - INFO - SUCCESS | yellow_tripdata_2024-02.parquet | 3,007,526 rows
+2026-11-14 14:44:12,702 - INFO - SUCCESS | yellow_tripdata_2024-03.parquet | 3,582,628 rows
+2026-11-14 14:44:12,779 - INFO - SUCCESS | yellow_tripdata_2024-04.parquet | 3,514,289 rows
+2026-11-14 14:44:12,850 - INFO - SUCCESS | yellow_tripdata_2024-05.parquet | 3,723,833 rows
+2026-11-14 14:44:12,977 - INFO - SUCCESS | yellow_tripdata_2024-06.parquet | 3,539,193 rows
+2026-11-14 14:44:13,656 - INFO - SUCCESS | green_tripdata_2024-01.parquet | 56,551 rows
+2026-11-14 14:44:14,312 - INFO - SUCCESS | green_tripdata_2024-02.parquet | 53,577 rows
+2026-11-14 14:44:14,864 - INFO - SUCCESS | green_tripdata_2024-03.parquet | 57,457 rows
+2026-11-14 14:44:15,542 - INFO - SUCCESS | green_tripdata_2024-04.parquet | 56,471 rows
+2026-11-14 14:44:16,856 - INFO - SUCCESS | green_tripdata_2024-05.parquet | 61,003 rows
+2026-11-14 14:44:18,059 - INFO - SUCCESS | green_tripdata_2024-06.parquet | 54,748 rows
+2026-11-14 14:44:18,226 - INFO - SUCCESS | fhv_tripdata_2024-01.parquet | 1,290,116 rows
+2026-11-14 14:44:18,422 - INFO - SUCCESS | fhv_tripdata_2024-02.parquet | 1,176,093 rows
+2026-11-14 14:44:18,476 - INFO - SUCCESS | fhv_tripdata_2024-03.parquet | 1,469,352 rows
+2026-11-14 14:44:18,592 - INFO - SUCCESS | fhv_tripdata_2024-04.parquet | 1,444,626 rows
+2026-11-14 14:44:18,697 - INFO - SUCCESS | fhv_tripdata_2024-05.parquet | 1,352,502 rows
+2026-11-14 14:44:18,785 - INFO - SUCCESS | fhv_tripdata_2024-06.parquet | 1,386,539 rows
+2026-11-14 14:44:19,142 - INFO - SUCCESS | fhvhv_tripdata_2024-01.parquet | 19,663,930 rows
+2026-11-14 14:44:20,075 - INFO - SUCCESS | fhvhv_tripdata_2024-02.parquet | 19,359,148 rows
+2026-11-14 14:44:20,978 - INFO - SUCCESS | fhvhv_tripdata_2024-03.parquet | 21,280,788 rows
+2026-11-14 14:44:21,189 - INFO - SUCCESS | fhvhv_tripdata_2024-04.parquet | 19,733,038 rows
+2026-11-14 14:44:21,423 - INFO - SUCCESS | fhvhv_tripdata_2024-05.parquet | 20,704,538 rows
+2026-11-14 14:44:21,721 - INFO - SUCCESS | fhvhv_tripdata_2024-06.parquet | 20,123,226 rows
