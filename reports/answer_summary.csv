@@ -1,0 +1,5 @@
+taxi_type,label,total_trips,total_miles,days,avg_trips_per_day,share_pct,rank
+fhvhv,"High-volume FHV (Uber, Lyft)",120864668,605988040.8089991,182,664092.0,80.76,1
+yellow,Yellow taxi,20331644,95657153.72000013,182,111712.0,13.59,2
+fhv,FHV (other bases),8119228,,182,44611.0,5.43,3
+green,Green taxi,339763,5843798.890000001,182,1867.0,0.23,4

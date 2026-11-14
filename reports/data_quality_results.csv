@@ -21,3 +21,5 @@ fhvhv,fhvhv_tripdata_2024-01.parquet,19663930.0,0.0,0.0,0.0,metadata+scan,SUCCES
 fhvhv,fhvhv_tripdata_2024-02.parquet,19359148.0,0.0,0.0,0.0,metadata+scan,SUCCESS,
 fhvhv,fhvhv_tripdata_2024-03.parquet,21280788.0,0.0,0.0,0.0,metadata+scan,SUCCESS,
 fhvhv,fhvhv_tripdata_2024-04.parquet,19733038.0,0.0,0.0,0.0,metadata+scan,SUCCESS,
+fhvhv,fhvhv_tripdata_2024-05.parquet,20704538.0,0.0,0.0,0.0,metadata+scan,SUCCESS,
+fhvhv,fhvhv_tripdata_2024-06.parquet,20123226.0,0.0,0.0,0.0,metadata+scan,SUCCESS,

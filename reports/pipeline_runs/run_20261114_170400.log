@@ -1,0 +1,147 @@
+===== PIPELINE RUN 20261114_170400 | steps: quality, curate, analysis | force=False =====
+
+----- STEP: quality -----
+SKIP (already checked): yellow_tripdata_2024-01.parquet
+SKIP (already checked): yellow_tripdata_2024-02.parquet
+SKIP (already checked): yellow_tripdata_2024-03.parquet
+SKIP (already checked): yellow_tripdata_2024-04.parquet
+SKIP (already checked): yellow_tripdata_2024-05.parquet
+SKIP (already checked): yellow_tripdata_2024-06.parquet
+SKIP (already checked): green_tripdata_2024-01.parquet
+SKIP (already checked): green_tripdata_2024-02.parquet
+SKIP (already checked): green_tripdata_2024-03.parquet
+SKIP (already checked): green_tripdata_2024-04.parquet
+SKIP (already checked): green_tripdata_2024-05.parquet
+SKIP (already checked): green_tripdata_2024-06.parquet
+SKIP (already checked): fhv_tripdata_2024-01.parquet
+SKIP (already checked): fhv_tripdata_2024-02.parquet
+SKIP (already checked): fhv_tripdata_2024-03.parquet
+SKIP (already checked): fhv_tripdata_2024-04.parquet
+SKIP (already checked): fhv_tripdata_2024-05.parquet
+SKIP (already checked): fhv_tripdata_2024-06.parquet
+SKIP (already checked): fhvhv_tripdata_2024-01.parquet
+SKIP (already checked): fhvhv_tripdata_2024-02.parquet
+SKIP (already checked): fhvhv_tripdata_2024-03.parquet
+SKIP (already checked): fhvhv_tripdata_2024-04.parquet
+
+Checking: fhvhv_tripdata_2024-05.parquet
+SUCCESS (metadata+scan): fhvhv_tripdata_2024-05.parquet
+
+Checking: fhvhv_tripdata_2024-06.parquet
+SUCCESS (metadata+scan): fhvhv_tripdata_2024-06.parquet
+
+========== DATA QUALITY SUMMARY ==========
+taxi_type                        filename  total_rows  null_pickup  null_dropoff  negative_distance  check_method  status
+   yellow yellow_tripdata_2024-01.parquet   2964624.0          0.0           0.0                0.0 metadata+scan SUCCESS
+   yellow yellow_tripdata_2024-02.parquet   3007526.0          0.0           0.0                0.0 metadata+scan SUCCESS
+   yellow yellow_tripdata_2024-03.parquet   3582628.0          0.0           0.0                0.0 metadata+scan SUCCESS
+   yellow yellow_tripdata_2024-04.parquet   3514289.0          0.0           0.0                0.0 metadata+scan SUCCESS
+   yellow yellow_tripdata_2024-05.parquet   3723833.0          0.0           0.0                0.0 metadata+scan SUCCESS
+   yellow yellow_tripdata_2024-06.parquet   3539193.0          0.0           0.0                0.0 metadata+scan SUCCESS
+    green  green_tripdata_2024-01.parquet     56551.0          0.0           0.0                0.0 metadata+scan SUCCESS
+    green  green_tripdata_2024-02.parquet     53577.0          0.0           0.0                0.0 metadata+scan SUCCESS
+    green  green_tripdata_2024-03.parquet     57457.0          0.0           0.0                0.0 metadata+scan SUCCESS
+    green  green_tripdata_2024-04.parquet     56471.0          0.0           0.0                0.0 metadata+scan SUCCESS
+    green  green_tripdata_2024-05.parquet     61003.0          0.0           0.0                0.0 metadata+scan SUCCESS
+    green  green_tripdata_2024-06.parquet     54748.0          0.0           0.0                0.0 metadata+scan SUCCESS
+      fhv    fhv_tripdata_2024-01.parquet   1290116.0          0.0           0.0                NaN metadata+scan SUCCESS
+      fhv    fhv_tripdata_2024-02.parquet   1176093.0          0.0           0.0                NaN metadata+scan SUCCESS
+      fhv    fhv_tripdata_2024-03.parquet   1469352.0          0.0           0.0                NaN metadata+scan SUCCESS
+      fhv    fhv_tripdata_2024-04.parquet   1444626.0          0.0           0.0                NaN metadata+scan SUCCESS
+      fhv    fhv_tripdata_2024-05.parquet   1352502.0          0.0           0.0                NaN metadata+scan SUCCESS
+      fhv    fhv_tripdata_2024-06.parquet   1386539.0          0.0           0.0                NaN metadata+scan SUCCESS
+    fhvhv  fhvhv_tripdata_2024-01.parquet  19663930.0          0.0           0.0                0.0 metadata+scan SUCCESS
+    fhvhv  fhvhv_tripdata_2024-02.parquet  19359148.0          0.0           0.0                0.0 metadata+scan SUCCESS
+    fhvhv  fhvhv_tripdata_2024-03.parquet  21280788.0          0.0           0.0                0.0 metadata+scan SUCCESS
+    fhvhv  fhvhv_tripdata_2024-04.parquet  19733038.0          0.0           0.0                0.0 metadata+scan SUCCESS
+    fhvhv  fhvhv_tripdata_2024-05.parquet  20704538.0          0.0           0.0                0.0 metadata+scan SUCCESS
+    fhvhv  fhvhv_tripdata_2024-06.parquet  20123226.0          0.0           0.0                0.0 metadata+scan SUCCESS
+
+Success: 24 / 24
+Saved: reports\data_quality_results.csv
+----- quality: SUCCESS (181.5s) | 24/24 files SUCCESS
+
+----- STEP: curate -----
+SKIP (already curated): yellow_tripdata_2024-01.parquet
+SKIP (already curated): yellow_tripdata_2024-02.parquet
+SKIP (already curated): yellow_tripdata_2024-03.parquet
+SKIP (already curated): yellow_tripdata_2024-04.parquet
+SKIP (already curated): yellow_tripdata_2024-05.parquet
+SKIP (already curated): yellow_tripdata_2024-06.parquet
+SKIP (already curated): green_tripdata_2024-01.parquet
+SKIP (already curated): green_tripdata_2024-02.parquet
+SKIP (already curated): green_tripdata_2024-03.parquet
+SKIP (already curated): green_tripdata_2024-04.parquet
+SKIP (already curated): green_tripdata_2024-05.parquet
+SKIP (already curated): green_tripdata_2024-06.parquet
+SKIP (already curated): fhv_tripdata_2024-01.parquet
+SKIP (already curated): fhv_tripdata_2024-02.parquet
+SKIP (already curated): fhv_tripdata_2024-03.parquet
+SKIP (already curated): fhv_tripdata_2024-04.parquet
+SKIP (already curated): fhv_tripdata_2024-05.parquet
+SKIP (already curated): fhv_tripdata_2024-06.parquet
+SKIP (already curated): fhvhv_tripdata_2024-01.parquet
+SKIP (already curated): fhvhv_tripdata_2024-02.parquet
+SKIP (already curated): fhvhv_tripdata_2024-03.parquet
+SKIP (already curated): fhvhv_tripdata_2024-04.parquet
+SKIP (already curated): fhvhv_tripdata_2024-05.parquet
+SKIP (already curated): fhvhv_tripdata_2024-06.parquet
+
+========== CURATION SUMMARY ==========
+taxi_type                        filename   raw_rows  kept_rows  dropped_out_of_period  dropped_bad_timestamp  dropped_negative_distance  days  status
+   yellow yellow_tripdata_2024-01.parquet  2964624.0  2964550.0                   18.0                   56.0                        0.0  31.0 SUCCESS
+   yellow yellow_tripdata_2024-02.parquet  3007526.0  3007504.0                   15.0                    7.0                        0.0  29.0 SUCCESS
+   yellow yellow_tripdata_2024-03.parquet  3582628.0  3582488.0                   23.0                  117.0                        0.0  31.0 SUCCESS
+   yellow yellow_tripdata_2024-04.parquet  3514289.0  3514210.0                    9.0                   70.0                        0.0  30.0 SUCCESS
+   yellow yellow_tripdata_2024-05.parquet  3723833.0  3723758.0                   33.0                   42.0                        0.0  31.0 SUCCESS
+   yellow yellow_tripdata_2024-06.parquet  3539193.0  3539134.0                   51.0                    8.0                        0.0  30.0 SUCCESS
+    green  green_tripdata_2024-01.parquet    56551.0    56549.0                    2.0                    0.0                        0.0  31.0 SUCCESS
+    green  green_tripdata_2024-02.parquet    53577.0    53571.0                    6.0                    0.0                        0.0  29.0 SUCCESS
+    green  green_tripdata_2024-03.parquet    57457.0    57447.0                   10.0                    0.0                        0.0  31.0 SUCCESS
+    green  green_tripdata_2024-04.parquet    56471.0    56467.0                    4.0                    0.0                        0.0  30.0 SUCCESS
+    green  green_tripdata_2024-05.parquet    61003.0    60994.0                    9.0                    0.0                        0.0  31.0 SUCCESS
+    green  green_tripdata_2024-06.parquet    54748.0    54735.0                   13.0                    0.0                        0.0  30.0 SUCCESS
+      fhv    fhv_tripdata_2024-01.parquet  1290116.0  1290116.0                    0.0                    0.0                        0.0  31.0 SUCCESS
+      fhv    fhv_tripdata_2024-02.parquet  1176093.0  1176093.0                    0.0                    0.0                        0.0  29.0 SUCCESS
+      fhv    fhv_tripdata_2024-03.parquet  1469352.0  1469352.0                    0.0                    0.0                        0.0  31.0 SUCCESS
+      fhv    fhv_tripdata_2024-04.parquet  1444626.0  1444626.0                    0.0                    0.0                        0.0  30.0 SUCCESS
+      fhv    fhv_tripdata_2024-05.parquet  1352502.0  1352502.0                    0.0                    0.0                        0.0  31.0 SUCCESS
+      fhv    fhv_tripdata_2024-06.parquet  1386539.0  1386539.0                    0.0                    0.0                        0.0  30.0 SUCCESS
+    fhvhv  fhvhv_tripdata_2024-01.parquet 19663930.0 19663930.0                    0.0                    0.0                        0.0  31.0 SUCCESS
+    fhvhv  fhvhv_tripdata_2024-02.parquet 19359148.0 19359148.0                    0.0                    0.0                        0.0  29.0 SUCCESS
+    fhvhv  fhvhv_tripdata_2024-03.parquet 21280788.0 21280788.0                    0.0                    0.0                        0.0  31.0 SUCCESS
+    fhvhv  fhvhv_tripdata_2024-04.parquet 19733038.0 19733038.0                    0.0                    0.0                        0.0  30.0 SUCCESS
+    fhvhv  fhvhv_tripdata_2024-05.parquet 20704538.0 20704538.0                    0.0                    0.0                        0.0  31.0 SUCCESS
+    fhvhv  fhvhv_tripdata_2024-06.parquet 20123226.0 20123226.0                    0.0                    0.0                        0.0  30.0 SUCCESS
+
+Curated table: D:\NYC-Taxi-Data-Lifecycle-Pipeline\data\curated\daily_trips_all.parquet (728 daily rows)
+Log: D:\NYC-Taxi-Data-Lifecycle-Pipeline\reports\curation_log.csv
+----- curate: SUCCESS (0.3s) | 24/24 files SUCCESS
+
+----- STEP: analysis -----
+Check passed: curated totals match curation_log.csv for all files
+# Answer: most used taxi type, Jan–Jun 2024
+
+**High-volume FHV (Uber, Lyft)** (`fhvhv`) was the most used, with
+**120,864,668 trips** (80.8% of all trips),
+about **5.9×** the next type, Yellow taxi (20,331,644 trips).
+It was the highest in every month from January to June.
+
+Metric: number of trips (one row = one trip) kept after cleaning in `src/curate.py`.
+
+| rank | label | total_trips | share_pct | avg_trips_per_day |
+|---|---|---|---|---|
+| 1 | High-volume FHV (Uber, Lyft) | 120,864,668 | 80.76 | 664,092 |
+| 2 | Yellow taxi | 20,331,644 | 13.59 | 111,712 |
+| 3 | FHV (other bases) | 8,119,228 | 5.43 | 44,611 |
+| 4 | Green taxi | 339,763 | 0.23 | 1,867 |
+
+Figures: `fig_total_trips.png`, `fig_monthly_trips.png`.
+Monthly breakdown: `monthly_trips.csv`.
+
+Saved to reports/: answer.md, answer_summary.csv, monthly_trips.csv, fig_total_trips.png, fig_monthly_trips.png
+----- analysis: SUCCESS (1.6s) | answer.md, answer_summary.csv, monthly_trips.csv, 2 figures
+
+===== RUN 20261114_170400: SUCCESS =====
+Log: D:\NYC-Taxi-Data-Lifecycle-Pipeline\reports\pipeline_runs\run_20261114_170400.log
+Status history: D:\NYC-Taxi-Data-Lifecycle-Pipeline\reports\pipeline_status.csv

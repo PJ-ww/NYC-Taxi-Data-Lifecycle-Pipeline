@@ -1,0 +1,7 @@
+run_id,step,status,started_at,duration_s,detail,force
+20261114_170400,quality,SUCCESS,2026-11-14T17:04:00,181.5,24/24 files SUCCESS,False
+20261114_170400,curate,SUCCESS,2026-11-14T17:07:02,0.3,24/24 files SUCCESS,False
+20261114_170400,analysis,SUCCESS,2026-11-14T17:07:02,1.6,"answer.md, answer_summary.csv, monthly_trips.csv, 2 figures",False
+20261114_171303,quality,SUCCESS,2026-11-14T17:13:03,1.3,24/24 files SUCCESS,False
+20261114_171303,curate,SUCCESS,2026-11-14T17:13:04,0.2,24/24 files SUCCESS,False
+20261114_171303,analysis,SUCCESS,2026-11-14T17:13:04,2.1,"answer.md, answer_summary.csv, monthly_trips.csv, 2 figures",False
